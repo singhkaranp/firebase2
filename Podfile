@@ -8,5 +8,7 @@ target 'firebase2' do
   # Pods for firebase2
 	pod 'Firebase/Analytics'
 	pod 'SwiftyJSON'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Core'
 
 end

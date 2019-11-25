@@ -3,29 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36188B252387890600C1BD04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36188B242387890600C1BD04 /* LoginViewController.swift */; };
+		36188B272387890F00C1BD04 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36188B262387890F00C1BD04 /* SignUpViewController.swift */; };
 		3662024F238762C70058EA52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3662024E238762C70058EA52 /* AppDelegate.swift */; };
 		36620251238762C70058EA52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36620250238762C70058EA52 /* SceneDelegate.swift */; };
-		36620253238762C70058EA52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36620252238762C70058EA52 /* ViewController.swift */; };
 		36620256238762C70058EA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36620254238762C70058EA52 /* Main.storyboard */; };
 		36620258238762C80058EA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36620257238762C80058EA52 /* Assets.xcassets */; };
 		3662025B238762C80058EA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36620259238762C80058EA52 /* LaunchScreen.storyboard */; };
+		366202632387875A0058EA52 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366202622387875A0058EA52 /* StartViewController.swift */; };
+		36620267238787EB0058EA52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36620266238787EB0058EA52 /* GoogleService-Info.plist */; };
+		369C35E92387C6D2000EB5B3 /* DataStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 369C35E72387C6D2000EB5B3 /* DataStorage.xcdatamodeld */; };
+		36C647832387E54B007E1CFF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C647822387E54B007E1CFF /* ListTableViewController.swift */; };
+		36FFAB522387EB2E000D8E33 /* CreateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FFAB512387EB2E000D8E33 /* CreateListViewController.swift */; };
+		36FFAB542387EB52000D8E33 /* ListOfItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FFAB532387EB52000D8E33 /* ListOfItemsTableViewController.swift */; };
+		36FFAB562388B2B8000D8E33 /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FFAB552388B2B8000D8E33 /* AddItemsViewController.swift */; };
 		E6916DAEB50179F7F1B35A7B /* Pods_firebase2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E53FE6E126AACB7D0A9497 /* Pods_firebase2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28E53FE6E126AACB7D0A9497 /* Pods_firebase2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36188B242387890600C1BD04 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		36188B262387890F00C1BD04 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3662024B238762C70058EA52 /* firebase2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebase2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3662024E238762C70058EA52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36620250238762C70058EA52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36620252238762C70058EA52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36620255238762C70058EA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36620257238762C80058EA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3662025A238762C80058EA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3662025C238762C80058EA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366202622387875A0058EA52 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		36620266238787EB0058EA52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		369C35E82387C6D2000EB5B3 /* DataStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataStorage.xcdatamodel; sourceTree = "<group>"; };
+		36C647822387E54B007E1CFF /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		36FFAB512387EB2E000D8E33 /* CreateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListViewController.swift; sourceTree = "<group>"; };
+		36FFAB532387EB52000D8E33 /* ListOfItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfItemsTableViewController.swift; sourceTree = "<group>"; };
+		36FFAB552388B2B8000D8E33 /* AddItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsViewController.swift; sourceTree = "<group>"; };
 		407A00A8368A41B05098B7C3 /* Pods-firebase2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase2.debug.xcconfig"; path = "Target Support Files/Pods-firebase2/Pods-firebase2.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9D290FBF68760512CB3D0A /* Pods-firebase2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase2.release.xcconfig"; path = "Target Support Files/Pods-firebase2/Pods-firebase2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +64,6 @@
 				407A00A8368A41B05098B7C3 /* Pods-firebase2.debug.xcconfig */,
 				AC9D290FBF68760512CB3D0A /* Pods-firebase2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,11 +90,19 @@
 			children = (
 				3662024E238762C70058EA52 /* AppDelegate.swift */,
 				36620250238762C70058EA52 /* SceneDelegate.swift */,
-				36620252238762C70058EA52 /* ViewController.swift */,
 				36620254238762C70058EA52 /* Main.storyboard */,
+				36FFAB552388B2B8000D8E33 /* AddItemsViewController.swift */,
+				36FFAB532387EB52000D8E33 /* ListOfItemsTableViewController.swift */,
+				36FFAB512387EB2E000D8E33 /* CreateListViewController.swift */,
+				36C647822387E54B007E1CFF /* ListTableViewController.swift */,
+				36188B242387890600C1BD04 /* LoginViewController.swift */,
+				36188B262387890F00C1BD04 /* SignUpViewController.swift */,
+				366202622387875A0058EA52 /* StartViewController.swift */,
 				36620257238762C80058EA52 /* Assets.xcassets */,
 				36620259238762C80058EA52 /* LaunchScreen.storyboard */,
 				3662025C238762C80058EA52 /* Info.plist */,
+				36620266238787EB0058EA52 /* GoogleService-Info.plist */,
+				369C35E72387C6D2000EB5B3 /* DataStorage.xcdatamodeld */,
 			);
 			path = firebase2;
 			sourceTree = "<group>";
@@ -153,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3662025B238762C80058EA52 /* LaunchScreen.storyboard in Resources */,
+				36620267238787EB0058EA52 /* GoogleService-Info.plist in Resources */,
 				36620258238762C80058EA52 /* Assets.xcassets in Resources */,
 				36620256238762C70058EA52 /* Main.storyboard in Resources */,
 			);
@@ -207,9 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36620253238762C70058EA52 /* ViewController.swift in Sources */,
+				36188B252387890600C1BD04 /* LoginViewController.swift in Sources */,
 				3662024F238762C70058EA52 /* AppDelegate.swift in Sources */,
+				36FFAB542387EB52000D8E33 /* ListOfItemsTableViewController.swift in Sources */,
+				36FFAB562388B2B8000D8E33 /* AddItemsViewController.swift in Sources */,
+				36FFAB522387EB2E000D8E33 /* CreateListViewController.swift in Sources */,
+				369C35E92387C6D2000EB5B3 /* DataStorage.xcdatamodeld in Sources */,
+				36C647832387E54B007E1CFF /* ListTableViewController.swift in Sources */,
 				36620251238762C70058EA52 /* SceneDelegate.swift in Sources */,
+				366202632387875A0058EA52 /* StartViewController.swift in Sources */,
+				36188B272387890F00C1BD04 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.karansingh.firebase2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karansingh.Progress-Journal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.karansingh.firebase2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karansingh.Progress-Journal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -409,6 +440,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		369C35E72387C6D2000EB5B3 /* DataStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				369C35E82387C6D2000EB5B3 /* DataStorage.xcdatamodel */,
+			);
+			currentVersion = 369C35E82387C6D2000EB5B3 /* DataStorage.xcdatamodel */;
+			path = DataStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 36620243238762C60058EA52 /* Project object */;
 }
